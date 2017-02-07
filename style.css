@@ -1,0 +1,58 @@
+body {
+background: white;
+color: #FFFFFF;
+font-family: 'Open Sans';
+margin: 0;
+padding: 0;
+
+}
+#container {
+	background: #F0E68C;
+	width: 1600px;
+	min-width: 200px;
+}
+ /*Шапка*/
+#header {
+	height: 568px;
+	background: url(img/bg-header.jpg) left top no-repeat;
+	font-family: roboto;
+	position: relative;
+	
+}
+#logo {
+	float: left;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+#text-c {
+	float: left;
+	margin-top: 280px;
+	margin-left: 275px;
+	font-size: 48px;
+	font-family: roboto;
+	line-height: 57px;
+	font-weight: regular;
+}
+#text-r {
+	text-align: right;
+	float: right;
+	margin-right: 50px;
+	margin-top: 130px;
+}
+#number {
+	font: bold 70px roboto;
+}
+#adress {
+	font: normal 30px roboto;
+}
+#mail {
+	text-decoration: underline;
+
+}
+
+
+/*Меню*/
+#navigation {
+	background: #D2691E;
+	clear: both;
+}
